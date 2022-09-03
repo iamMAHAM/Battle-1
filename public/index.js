@@ -8,3 +8,8 @@ window.addEventListener('scroll', () => {
         block.classList.remove('partie1-active');
     }
 })
+
+
+document.querySelector(".okoko").addEventListener("click", ()=>{
+    window.location.href = "/con"
+})
